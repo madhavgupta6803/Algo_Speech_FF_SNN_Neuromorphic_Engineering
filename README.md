@@ -24,6 +24,9 @@ Loads the SHD dataset using the tonic.datasets.SHD class, applies transformation
 #### Training and Testing Setup:
 Initializes the model on the appropriate device (CPU/GPU) and counts the total parameters in the network.
 
+![image](https://github.com/user-attachments/assets/486ccb7b-f126-407d-902c-c69cee823ddc)
+
+
 ### SNN_With_Delay_and_Adaptive_Scheduler.ipynb:
 
 #### This notebook implements a spiking neural network (SNN) that includes delay mechanisms and an adaptive delay scheduler. Here are the primary functionalities and steps:
