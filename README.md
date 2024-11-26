@@ -43,8 +43,8 @@ Implements the AdaptiveDelayScheduler class to dynamically adjust the delay cap 
 This scheduler updates delay caps based on the proportion of neurons falling within a specified delay range, allowing adaptive timing adjustments for neurons during training.
 
 #### Network Definition with Adaptive Delays:
-The NetWithAdaptiveDelays class defines a three-layer spiking neural network with learnable delays.
-Each layer is a fully connected layer followed by Leaky Integrate-and-Fire (LIF) neurons, and delays are applied to spike trains based on each neuron’s learned delay.
+* The NetWithAdaptiveDelays class defines a three-layer spiking neural network with learnable delays.
+* Each layer is a fully connected layer followed by Leaky Integrate-and-Fire (LIF) neurons, and delays are applied to spike trains based on each neuron’s learned delay.
 The apply_delays_to_sequence method applies these delays to spikes, shifting each neuron’s spike sequence according to its individual delay.
 The forward method processes inputs across time steps, collecting spiking outputs at each layer and adapting membrane potentials accordingly.
 The update_delays method adjusts hidden layer delays using the adaptive delay scheduler.
