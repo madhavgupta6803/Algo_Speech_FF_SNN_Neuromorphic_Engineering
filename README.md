@@ -56,3 +56,8 @@ The _SHD2Raster class and transformation pipeline rasterize the event-based SHD 
 
 #### Training and Testing Setup:
 Initializes the model on the appropriate device (CPU/GPU) and counts the total parameters in the network.
+
+![image](https://github.com/user-attachments/assets/97223b8e-2af1-4ee6-a779-38cfd1709711)
+![image](https://github.com/user-attachments/assets/29ccad90-affb-4ec0-9259-32ed84ecd523)
+
+
