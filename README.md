@@ -60,4 +60,6 @@ Training and Testing Accuracy and Loss are plotted for SNN Network with Adaptive
 ![image](https://github.com/user-attachments/assets/97223b8e-2af1-4ee6-a779-38cfd1709711)
 ![image](https://github.com/user-attachments/assets/29ccad90-affb-4ec0-9259-32ed84ecd523)
 
+#### Reference
+https://ieeexplore.ieee.org/abstract/document/10094768
 
