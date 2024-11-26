@@ -22,7 +22,7 @@ Loads the SHD dataset using the tonic.datasets.SHD class, applies transformation
 * The forward method processes input sequences through the network layers over time, updating membrane potentials and capturing spiking outputs.
 
 #### Training and Testing Setup:
-Initializes the model on the appropriate device (CPU/GPU) and counts the total parameters in the network.
+Training and Testing Accuracy and Loss are plotted for the Basic SNN Network without the delays scheduler. The test accuracy after 50 epochs is 61%
 
 ![image](https://github.com/user-attachments/assets/486ccb7b-f126-407d-902c-c69cee823ddc)
 ![image](https://github.com/user-attachments/assets/c6069a33-26fd-4009-bd98-15313a98fdd7)
@@ -55,7 +55,7 @@ The _SHD2Raster class and transformation pipeline rasterize the event-based SHD 
 * The update_delays method adjusts hidden layer delays using the adaptive delay scheduler.
 
 #### Training and Testing Setup:
-Initializes the model on the appropriate device (CPU/GPU) and counts the total parameters in the network.
+Training and Testing Accuracy and Loss are plotted for SNN Network with Adaptive Delay Scheduler. After each epoch the delays in the network are updated using the adaptive scheduling mechanism which improves its accuracy from 61% without adaptive scheduling to 73% with adaptive scheduling incorporated.
 
 ![image](https://github.com/user-attachments/assets/97223b8e-2af1-4ee6-a779-38cfd1709711)
 ![image](https://github.com/user-attachments/assets/29ccad90-affb-4ec0-9259-32ed84ecd523)
