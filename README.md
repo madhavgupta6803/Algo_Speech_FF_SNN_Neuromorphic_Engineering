@@ -1,5 +1,9 @@
 ## Algo_Speech_FF_SNN_Neuromorphic_Engineering
 
+### Link to the video explanation
+
+https://drive.google.com/file/d/12x11cRVi66-vuZorY_g60NuhvZLVwv9a/view?usp=sharing
+
 There are two files in this project
 ### SNN_Without_Delay_SHD_Dataset.ipynb:
 
