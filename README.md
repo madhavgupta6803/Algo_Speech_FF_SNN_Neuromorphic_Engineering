@@ -25,6 +25,8 @@ Loads the SHD dataset using the tonic.datasets.SHD class, applies transformation
 Initializes the model on the appropriate device (CPU/GPU) and counts the total parameters in the network.
 
 ![image](https://github.com/user-attachments/assets/486ccb7b-f126-407d-902c-c69cee823ddc)
+![image](https://github.com/user-attachments/assets/c6069a33-26fd-4009-bd98-15313a98fdd7)
+
 
 
 ### SNN_With_Delay_and_Adaptive_Scheduler.ipynb:
