@@ -1,5 +1,6 @@
 # Algo_Speech_FF_SNN_Neuromorphic_Engineering
 
+### How to run the file
 Dependencies Installation:
 
 Installing required libraries (snntorch and tonic).
